@@ -1,0 +1,7 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://dq78nwqdo4w5e"]
+
+[ext_resource type="Texture2D" uid="uid://derd5egncjb3t" path="res://images/packed/card_portraits/ironclad/double_strike.png" id="1_jfo8i"]
+
+[resource]
+atlas = ExtResource("1_jfo8i")
+region = Rect2(0, 195.59288, 1020.21277, 656.217)
