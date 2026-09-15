@@ -9,6 +9,7 @@ using MegaCrit.Sts2.Core.Models.PotionPools;
 using MegaCrit.Sts2.Core.Models.RelicPools;
 using MegaCrit.Sts2.Core.Saves.Runs;
 using sts2mod.Cards;// ← 这里如果报红就删掉，其他爆红的别动。
+using sts2mod.Relics;
 
 namespace sts2mod   // ← 这里改成你的模组ID（必须和你的.json文件中的"id"一致！）
 {
@@ -26,6 +27,8 @@ namespace sts2mod   // ← 这里改成你的模组ID（必须和你的.json文�
                 // 2. 在这里添加你的注册逻辑（卡牌、遗物、药水等）
                 ModHelper.AddModelToPool(typeof(IroncladCardPool),typeof(DoubleStrike));
                 ModHelper.AddModelToPool(typeof(IroncladCardPool), typeof(AnthonyDaddy));
+                
+                ModHelper.AddModelToPool(typeof(IroncladRelicPool), typeof(TestShield));
                 //ModHelper.AddModelToPool(typeof( 卡牌池 ), typeof( 卡牌名字 ));
                 //ModHelper.AddModelToPool(typeof( 遗物池 ), typeof( 遗物名字 ));
                 //ModHelper.AddModelToPool(typeof( 药水池 ), typeof( 药水名字 ));

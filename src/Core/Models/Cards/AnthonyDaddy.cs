@@ -1,4 +1,4 @@
-using System;
+// using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using MegaCrit.Sts2.Core.Commands;
@@ -8,7 +8,7 @@ using MegaCrit.Sts2.Core.HoverTips;
 using MegaCrit.Sts2.Core.Localization.DynamicVars;
 using MegaCrit.Sts2.Core.Models;
 using MegaCrit.Sts2.Core.ValueProps;
-using MegaCrit.Sts2.Core.Models.Powers;
+// using MegaCrit.Sts2.Core.Models.Powers;
 using sts2mod.Powers;
 
 namespace sts2mod.Cards;
